@@ -136,3 +136,125 @@ body {
 .about-btn {
     color: #303030;
 }
+.prices-pre-title {
+    color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+    color: var(--secondary-header-color);
+}
+.prices-elem {
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+.prices-btn {
+    color: #ffffff;
+}
+
+/*---------------BENEFITS----------------*/
+.benefits-item > span {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+.benefits-item > sup {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.38;
+    text-align: center;
+    color: var(--accent-color);
+}
+.benefits-pre-title {
+    color: #303030;
+}
+.benefits-title {
+    color: var(--primary-header-color);
+}
+.benefits-after-title {
+    color: #555555;
+}
+
+/*----------------BARBERS---------------*/
+.barbers-pre-title {
+    color: #303030;
+}
+.barbers-title {
+    color: var(--primary-header-color);
+}
+.barbers-name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+}
+.barbers-info {
+    font-size: 14px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+/*---------------GALLERY---------------*/
+.gallery-pre-title {
+    color: #303030;
+}
+
+/*---------------FORM---------------*/
+.form-title {
+    color: var(--primary-header-color);
+}
+
+/*---------------CONTACTS---------------*/
+.contacts {
+    background-color: #303030;
+}
+.contacts-title {
+    color: var(--secondary-header-color);
+}
+.contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+.contact-address {
+    font-weight: 700;
+}
+.contact-pre-title {
+    color: #ffffff;
+}
+.contact-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+
+/*----------------FOOTER----------------*/
+.footer-copy {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #9da4bd;
+}
+.footer-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color);
+}
