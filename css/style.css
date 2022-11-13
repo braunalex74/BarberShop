@@ -1,11 +1,13 @@
 :root {
     --primary-header-color: #303030;
     --secondary-header-color: #ffffff;
+    --primary-link-color: #ffffff;
     --accent-color: #ff6c00;
+    --main-font: 'Open Sans', sans-serif;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--main-font);
 }
 
 .link {
@@ -15,51 +17,72 @@ body {
 .list {
     list-style: none;
 }
-
-/*---------------HEADER----------------*/
-
-header {
-    background-color: gray;
-}
-
-.header-link {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.1em;
-
-    color: var(--secondary-header-color);
-}
-
-.header-link:hover,
-.header-link:focus {
-    color: var(--accent-color);
-}
-
-.header-tel {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-
-    color: var(--secondary-header-color);
-}
-
-.header-btn {
+.btn {
     font-family: inherit;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.09em;
     text-transform: uppercase;
+}
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent-color);
+}
+.pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+}
+.after-title {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
+/*---------------HEADER----------------*/
+
+.header {
+    background-color: gray;
+}
+.header-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
     color: var(--secondary-header-color);
 }
-
-.header-btn:hover,
-.header-btn:focus {
-    background-color: var(--accent-color);;
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--primary-link-color);
+}
+.header-btn {
+    color: var(--secondary-header-color);
 }
 
 /*---------------HERO---------------*/
@@ -69,39 +92,25 @@ header {
 }
 
 .sub-title {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    text-transform: uppercase;
-
     color: rgba(157, 164, 189, 0.6);
 }
 
-.title {
-    font-family: 'Raleway' sans-serif;
-    font-size: 72px;
-    line-height: 1.18;
-    letter-spacing: 0.05em;
-
+.hero-title {
     color: var(--secondary-header-color);
 }
 .hero-text {
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: 0.02em;
-
     color: #9da4bd;
 }
-
 .hero-links {
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
     letter-spacing: 0.2em;
-    
     color: var(--primary-header-color);
 }
-
 .hero-links:hover,
 .hero-links:focus {
     color: var(--accent-color);
@@ -109,51 +118,21 @@ header {
 
 /*---------------ABOUT---------------*/
 
-.about {
-}
-
 .about-pre-title {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    text-transform: uppercase;
-    
-    color: var(--primary-header-color);
+    color: #303030;
 }
 .about-title {
-    font-family: 'Raleway' sans-serif;
-    font-size: 42px;
-    line-height: 1.18;
-    letter-spacing: 0.05em;
-    
     color: var(--primary-header-color);
 }
 .about-after-title {
-    font-size: 18px;
-    line-height: 1.67;
-    letter-spacing: 0.02em;
-    
     color: #555555;
 }
 .about-text {
     font-size: 14px;
     line-height: 1.86;
     letter-spacing: 0.02em;
-    
     color: #555555;
 }
 .about-btn {
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33 ;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    
-    color: var(--primary-header-color);
-}
-
-.about-btn:hover,
-.about-btn:focus {
-    color: var(--accent-color);
+    color: #303030;
 }
